@@ -88,6 +88,8 @@ nav .nav-title{
 .why-web-dev{
     background-color: rgba(13, 19, 33, 0.02);
     padding: 80px 97px;
+    border-radius: 16px;
+    margin-bottom: 100px;
 }
 
 .why-web-dev-text{
@@ -109,8 +111,104 @@ nav .nav-title{
 }
 
 .w-w-d-row{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 40px;
+}
+
+.w-w-d-row-1{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+.w-w-d-row-2{
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+.w-w-d-row-3{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+}
+
+.row-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.row-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    opacity: 0.7;
+    margin-bottom: 20px;
+}
+
+.w-w-d-btn{
+    background-color: transparent;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.row-text{
+    width: 400px;
+}
+
+.w-w-d-row-2{
     display: flex;
     align-items: center;
     gap: 30px;
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 40px;
+}
+
+.row-text-2{
+    width: 590px;
+}
+
+/* my-inspiration style */
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.my-inspiration .section-text{
+    text-align: center;
+}
+
+.my-inspiration .section-text .section-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.my-inspiration .section-text .section-description{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 30px;
+    width: 850px;
+    margin-bottom: 40px;
+}
+
+.my-inspiration .section-video{
+    border: 1px solid rgb(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 100%;
+    padding: 32px;
+}
+
+.my-inspiration .section-video iframe{
+    width: 100%;
+    border-radius: 16px;
+    height: 550px;
 }
